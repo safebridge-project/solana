@@ -31,7 +31,7 @@ use {
 pub const DEFAULT_MAX_LEDGER_SHREDS: u64 = 200_000_000;
 
 // Allow down to 50m, or 3.5 days at idle, 1hr at 50k load, around ~100GB
-pub const DEFAULT_MIN_MAX_LEDGER_SHREDS: u64 = 50_000_000;
+pub const DEFAULT_MIN_MAX_LEDGER_SHREDS: u64 = 500_000;
 
 // Check for removing slots at this interval so we don't purge too often
 // and starve other blockstore users.
